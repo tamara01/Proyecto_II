@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Formulario ABM</title>
+		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--final de Estilos-->
+		   <meta name="viewport" content="width=device-width, initial-scale=1">
+          <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min-3.3.6.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <script type="text/javascript" src="js/funciones.js"></script>
+        <script type="text/javascript" src="js/funcionesLogin.js"></script>
+</head>
+<body>
+	<div class="container">
+	  	  <header>
+	  	  	<hgroup><h3>Tama</h3>			
+			</hgroup>
+			<nav class="navbar nabar-default navbar-fixed-top navbar-inverse">
+				<form id="identificador" class="estilotextarea" >
+					
+					<input type="text" id="usuario" title="Usuario" readonly ><!--Para ver los usuarios en las sesiones-->
+			
+				</form>	
+
+				<div class="collapse navbar-collapse" id="navbar-1">						
+					<ul class="nav navbar-nav navbar-right">
+						<li><button type="button" class="MiBotonUTNMenu" id="LogIn" onClick="LoginForm()" >Login </button></li>
+						<li><button type="button" class="MiBotonUTNMenu" onClick="AltaForm()">Listado </button></li>
+						<!--<li><button type="button" class="MiBotonUTNMenu" id="LogOut" onClick="LoginForm()">Inicio </button> </li>-->
+					</ul>					
+				</div>
+				
+			</nav>
+
+		</header>
+
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	  	<div class="page-header">
+	  	    <br>
+            <h2>Usuarios</h2>      
+        </div>
+   
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////-->
+                <div id="principal" class="contenido"> 
+
+                </div>       
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////--> 	
+	<footer id="footer">
+					
+
+	</footer>
+	</div>
+
+
+</html>
